@@ -1,0 +1,15 @@
+*{
+    /* box-sizing: border-box; */
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    background-color: #FAFAFA;
+
+}

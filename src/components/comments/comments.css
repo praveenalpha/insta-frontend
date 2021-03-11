@@ -1,0 +1,60 @@
+.comments-container{
+    margin-left: auto;
+    margin-top: 15px;
+    position: fixed;
+    background: #FAFAFA;
+    height: 85vh;
+    width: 50vw;
+    z-index: 100;
+    border: 1px solid lightgray;
+    box-shadow: 0px 190px 56px 200px rgba(128,128,128,0.16);
+-webkit-box-shadow: 0px 190px 56px 200px rgba(128,128,128,0.16);
+-moz-box-shadow: 0px 190px 56px 200px rgba(128,128,128,0.16);
+}
+.cmnt-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.cmnt-btn button{
+    background: none;
+    border: none;
+    font-size: xx-large;
+    color: lightgray;
+    transition: transfrom 0.2s;
+}
+.cmnt-btn button:hover{
+    color: red;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.comments-container-div{
+    width: 95%;
+    margin-left: auto;
+}
+.one-cmnt{
+    display: flex;
+    align-items: center;
+}
+.one-cmnt-img{
+    height: 5vh;
+    width: 5vw;
+}
+.one-cmnt-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.one-cmnt-name{
+
+}
+.one-cmnt-name h6{
+
+}
+.one-cmnt-cmnt{
+    width: 75%;
+    margin-left: 3vw;
+}
+.one-cmnt-cmnt h3{
+
+}

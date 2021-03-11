@@ -1,0 +1,147 @@
+.login-body{
+  color: #FAFAFA;
+  height: 85vh;
+  display: flex;
+  width: 80%;
+  margin-top: 5vh;
+  margin-left: 4vw;
+} 
+
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 78%;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 360px;
+  height: 90%;
+  background: white;
+}
+.smartphone .content img{
+  height: 101%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+
+}
+.login-content{
+  position: absolute;
+    left: 60vw;
+    border: 1px solid lightgray;
+    color: black;
+    top: 25vh;
+    height: 45vh;
+    width: 22vw;
+}
+.login-content-logo{
+  height: 22vh;
+  width: 22vw;
+}
+.login-content-logo img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.login-content h1{
+  display: flex;
+  justify-content: center;
+}
+.login-content-button{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+    justify-content: center;
+}
+.login-content button{
+  width: 85%;
+    background-color: #007FFF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    height: 6vh;
+    font-size: x-large;
+    transition: transform 0.2s;
+}
+.login-content button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* 
+.login{
+  display: flex;
+    height: 90%;
+    justify-content: center;
+    width: 95%;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.login-image{
+    height: 100%;
+    width: 50%;
+}
+.login-image img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.login-content h1{
+    
+}
+
+.login-content button{
+    height: 8vh;
+    width: 100%;
+    background: none;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-large;
+    transition: transform 0.2s;
+}
+
+.login-content button:hover{
+    background: #DB4437;
+    transform: scale(1.1);
+}
+.login-content img{
+    height: 30vh;
+    border-radius: 35px;
+} */ 
